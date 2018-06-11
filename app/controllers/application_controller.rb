@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def test
-    render html: "This is my first application in web, and i want to deploy it on HEROKU!"
+    render html: "This is my first application in web, and i want to deploy it on HEROKU! I've add changes"
   end
 
   def test2
