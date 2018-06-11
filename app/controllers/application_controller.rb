@@ -8,6 +8,10 @@ class ApplicationController < ActionController::Base
   def test2
     render html: "Goodby Pidors"
   end
+
+  def test1
+    render html: "I love you Utochka <3"
+  end
 end
 
 
